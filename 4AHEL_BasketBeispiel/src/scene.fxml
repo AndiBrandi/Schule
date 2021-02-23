@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ListView fx:id="availabelproducts" layoutX="48.0" layoutY="60.0" prefHeight="226.0" prefWidth="200.0" AnchorPane.leftAnchor="48.0" AnchorPane.topAnchor="60.0" />
+      <Label layoutX="48.0" layoutY="26.0" text="verfügbare Produkte:" AnchorPane.leftAnchor="48.0" AnchorPane.topAnchor="26.0" />
+      <Label layoutX="399.0" layoutY="26.0" text="gewählte produkte:" AnchorPane.rightAnchor="98.14285714285714" AnchorPane.topAnchor="26.0" />
+      <Label layoutX="48.0" layoutY="349.0" text="Gesamtsumme der Bestellung:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="gesamtpreislabel" layoutX="248.0" layoutY="349.0" prefHeight="17.0" prefWidth="70.0" />
+      <Button fx:id="addButton" layoutX="268.0" layoutY="93.0" mnemonicParsing="false" onAction="#addproduct" prefHeight="25.0" prefWidth="52.0" text="&gt;&gt;" AnchorPane.topAnchor="93.0" />
+      <Button fx:id="removeButton" layoutX="268.0" layoutY="131.0" mnemonicParsing="false" onAction="#removeproduct" prefHeight="25.0" prefWidth="52.0" text="&lt;&lt;" AnchorPane.topAnchor="131.0" />
+      <ListView fx:id="selectedproducts" layoutX="360.0" layoutY="60.0" prefHeight="226.0" prefWidth="200.0" AnchorPane.bottomAnchor="113.71428571428572" AnchorPane.rightAnchor="40.0" />
+      <Button fx:id="calcPriceButton" layoutX="48.0" layoutY="307.0" mnemonicParsing="false" onAction="#calcprice" text="Bestellwert berechnen" />
+   </children>
+</AnchorPane>
