@@ -1,0 +1,51 @@
+{
+  "brand": "Grieskirchner",
+  "desc": "Das Produktsortiment der Brauerei umfasst 12 Standard-Biersorten: Pils, Märzen, Edelsud, Jörger Weisse hefetrüb, Jörger Weisse dunkel, Zwickl naturtrüb, das Leichte, Zitronen Radler naturtrüb, Saurer Radler, Oster- sowie Weihnachtsbock und Tradition. Das Aushängeschild der Brauerei ist definitiv das Pils mit seiner hopfigen Note. Die Grieskirchner Brauerei war die erste Brauerei die Radler in Flaschen abfüllte. Bis heute ist sie eine der wenigen Brauereien, die Sauren Radler in Flaschen anbietet. Auch Spezialbiere für besondere Anlässe werden gebraut, zum Beispiel das „Grieskirchner Jubiläumsbier“ zum 300-Jahr-Jubiläum der Brauerei Grieskirchen im Jahr 2008[10] sowie zum 400-Jahr-Jubiläum der Stadt Grieskirchen im Jahr 2013.[11] Es gibt auch immer wieder saisonale Spezialbiere der 4710er Reihe. Neben verschiedenen Biersorten und Radler bietet die Brauerei auch Limonaden und Sodawasser an.",
+  "products": [
+    {
+      "id": 1,
+      "name": "Grieskirchner Pils",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "fillingQuantity": 0.5,
+      "amount": 20,
+      "price": 0.69,
+      "pawn": 0.12
+    },
+    {
+      "id": 2,
+      "name": "Grieskirchner Märzen",
+      "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "fillingQuantity": 0.5,
+      "amount": 20,
+      "price": 0.59,
+      "pawn": 0.12
+    },
+    {
+      "id": 3,
+      "name": "Grieskirchner Radler",
+      "desc": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. ",
+      "fillingQuantity": 0.3,
+      "amount": 24,
+      "price": 0.63,
+      "pawn": 0.17
+    },
+    {
+      "id": 4,
+      "name": "Grieskirchner Limo",
+      "desc": "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "fillingQuantity": 0.3,
+      "amount": 24,
+      "price": 0.63,
+      "pawn": 0.17
+    },
+    {
+      "id": 5,
+      "name": "Schartnerbombe Orange",
+      "desc": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.",
+      "fillingQuantity": 0.3,
+      "amount": 24,
+      "price": 0.63,
+      "pawn": 0.17
+    }
+  ]
+}

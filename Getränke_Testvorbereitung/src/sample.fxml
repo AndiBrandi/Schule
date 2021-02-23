@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="Controller"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ListView fx:id="listview" onMouseClicked="#ListViewClicked" layoutX="14.0" layoutY="14.0" prefHeight="200.0"
+                  prefWidth="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0"
+                  AnchorPane.topAnchor="15.0"/>
+        <Label layoutX="229.0" layoutY="67.0" text="ID:" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="70.0"/>
+        <Label alignment="CENTER" layoutX="359.0" layoutY="63.0" text="Produktdetails" textAlignment="CENTER"
+               AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label layoutX="229.0" layoutY="84.0" text="Name:" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="85.0"/>
+        <Label layoutX="229.0" layoutY="101.0" text="Beschreibung:" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="100.0"/>
+        <Label layoutX="229.0" layoutY="118.0" text="Füllmenge (je Stück):" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="115.0"/>
+        <Label layoutX="229.0" layoutY="135.0" text="Flaschenanzahl:" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="130.0"/>
+        <Label layoutX="229.0" layoutY="152.0" text="Preis (je Stück):" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="145.0"/>
+        <Label layoutX="229.0" layoutY="169.0" text="Pfand (je Stück):" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="160.0"/>
+        <Label layoutX="229.0" layoutY="186.0" text="Gesamtpreis:" AnchorPane.leftAnchor="250.0"
+               AnchorPane.topAnchor="175.0">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label fx:id="label_ID" layoutX="390.0" layoutY="70.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="70.0"/>
+        <Label fx:id="label_Name" layoutX="400.0" layoutY="85.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="85.0"/>
+        <Label fx:id="label_description" layoutX="400.0" layoutY="100.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="100.0"/>
+        <Label fx:id="label_fillamount" layoutX="400.0" layoutY="115.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="115.0"/>
+        <Label fx:id="label_bottles" layoutX="400.0" layoutY="130.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="130.0"/>
+        <Label fx:id="label_price" layoutX="400.0" layoutY="145.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="145.0"/>
+        <Label fx:id="label_pfand" layoutX="400.0" layoutY="160.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="160.0"/>
+        <Label fx:id="label_finalprice" alignment="CENTER" layoutX="400.0" layoutY="175.0" AnchorPane.leftAnchor="400.0"
+               AnchorPane.topAnchor="175.0">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
