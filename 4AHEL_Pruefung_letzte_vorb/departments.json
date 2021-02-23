@@ -1,0 +1,80 @@
+{
+  "company": "HTL Steyr",
+  "departments": [
+    {
+      "name": "Programmierabteilung",
+      "employees": [
+        {
+          "firstname": "Thomas",
+          "lastname": "Bernreitner",
+          "mail": "sbernreit@htl-steyr.ac.at",
+          "phone": "+43664 / 7792510"
+        },
+        {
+          "firstname": "Alexander",
+          "lastname": "Burholzer",
+          "mail": "aburghol@htl-steyr.ac.at",
+          "phone": "+43664 / 4703847"
+        },
+        {
+          "firstname": "Patrick",
+          "lastname": "Huber",
+          "mail": "phuber@htl-steyr.ac.at",
+          "phone": "+43664 / 7079113"
+        },
+        {
+          "firstname": "Peter",
+          "lastname": "Rathgeb",
+          "mail": "prathgeb@htl-steyr.ac.at",
+          "phone": "+43664 / 9843567"
+        }
+      ]
+    },
+    {
+      "name": "Finanzabteilung",
+      "employees": [
+        {
+          "firstname": "Timotheus",
+          "lastname": "Lang",
+          "mail": "tlang@htl-steyr.ac.at",
+          "phone": "+43664 / 7902120"
+        },
+        {
+          "firstname": "Samra",
+          "lastname": "Novkinic",
+          "mail": "snovkini@htl-steyr.ac.at",
+          "phone": "+43664 / 7254992"
+        },
+        {
+          "firstname": "Nelio",
+          "lastname": "Sikorski",
+          "mail": "nsikorsk@htl-steyr.ac.at",
+          "phone": "+43664 / 5267176"
+        }
+      ]
+    },
+    {
+      "name": "Personalabteilung",
+      "employees": [
+        {
+          "firstname": "Mathias",
+          "lastname": "Weixlbaumer",
+          "mail": "mweixlba@htl-steyr.ac.at",
+          "phone": "+43664 / 4947798"
+        },
+        {
+          "firstname": "Andreas",
+          "lastname": "Brandstetter",
+          "mail": "abrandst@htl-steyr.ac.at",
+          "phone": "+43664 / 2508379"
+        },
+        {
+          "firstname": "Manuel",
+          "lastname": "Dutzler",
+          "mail": "mdutzler@htl-steyr.ac.at",
+          "phone": "+43664 / 6123744"
+        }
+      ]
+    }
+  ]
+}
